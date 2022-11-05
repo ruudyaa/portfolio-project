@@ -30,12 +30,36 @@
     ></script>
   </head>
   <body>
+    <header>
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+          <a href="/">
+            <img
+              src="images/logo.png"
+              class="logo d-none d-md-block"
+              alt="Logotype"
+            />
+            <img
+              src="images/logo-small.png"
+              class="logo d-block d-md-none"
+              alt="Logotype"
+            />
+          </a>
+          <ul>
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/about-me.html">About</a></li>
+            <li><a href="/work.html">Work</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <div class="hero">
       <p>👋 Hello, I'm</p>
       <h1>Marta Rudnytska</h1>
       <h2 class="mb-5">Front-End Developer based in Kyiv, Ukraine</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="contact.html" class="btn btn-branding">Contact me</a>
       </div>
     </div>
     <p class="text-center m-5">
@@ -104,7 +128,5 @@
         </div>
       </div>
     </div>
-    <a href="about-me.html">About Me</a>
-    <a href="contact.html">Contact</a>
   </body>
 </html>

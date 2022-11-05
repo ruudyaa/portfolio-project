@@ -119,6 +119,40 @@ p {
   border-radius: 20px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0 0 0;
+}
+
+nav a {
+  font-size: 14px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 44px;
